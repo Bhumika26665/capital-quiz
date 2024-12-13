@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+     body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+   
+   h1 {
+    color: #ff0000;
+}
+.score {
+    font-size: 24px;
+    margin: 20px 0;
+}
+.restart-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}</style>
+</head>
+<body>
+    <h1>Game Over</h1>
+    <div class="score">Your Score: <%= score %></div>
+    
+    <h2>Thank you for playing!</h2>
+    <button class="restart-button" onclick="window.location.href='/'">Play Again</button>
+</body>
+</html>
