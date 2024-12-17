@@ -5,9 +5,9 @@ import path from "path";
 
 const db = new pg.Client({
     user: "postgress",
-    host: "localhost",
-    database: "World",
-    password: "bhumi21@",
+    host: "dpg-ctgiv03gbbvc738qrprg-a",
+    database: "world_5mhd",
+    password: "uZA01J5n8PJblGIktCIcjLqpHf20Yc8g",
     port: 5432
 });
 
